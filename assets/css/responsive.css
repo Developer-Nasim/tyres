@@ -1,0 +1,1018 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+        
+.header-section nav ul li a {
+	padding: 20px 11px;
+	
+}
+.footer-section .footer-wiget a.showINxs {
+    display: none;
+}
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .contact-info ul li a {
+        font-size: 14px; 
+    }
+.header-section nav ul li a {
+	padding: 18px 10px;
+	font-size: 11px;
+}
+    .hero-fetures .hero-feture-wrepper h5 { 
+        font-size: 15px; 
+    }
+    .hero-fetures .hero-feture-wrepper img {
+        width: 49px;
+        margin-right: 5px;
+    }
+    .cetagories-box {
+        width: 174px; 
+        padding: 40px 18px;
+        margin: auto;
+    }
+
+
+#side-bar-blk ul {
+	display: block!important;
+}
+.customer-brend.owl-carousel.owl-loaded.owl-drag .owl-nav .owl-prev { 
+    left: 0px;
+    font-size: 60px; 
+}
+.customer-brend.owl-carousel.owl-loaded.owl-drag .owl-nav .owl-next { 
+    right: 0px;
+    font-size: 60px; 
+}
+.footer-section .footer-wiget a.showINxs {
+    display: none;
+}    
+    
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    
+.menu-open {
+	display: block;
+}
+    
+    
+ .menu-open {
+	position: absolute;
+	right: 20px;
+	background: none;
+	border: none;
+	font-size: 28px;
+	top: 12px;
+	color: #fec409;
+	z-index: 9;
+}
+    
+.contact-info {
+	text-align: right;
+	padding: 5px;
+	padding-right: 50px;
+	display: block;
+}
+    
+#side-bar-blk {
+	display: block;
+}
+
+    div#offcanvas-navicon {
+        display: block !important;
+    }
+	.menu-area{
+        display: none
+    }
+    .contact-info {
+        text-align: right;
+    }
+
+    #offcanvas-navicon span { 
+        background: #fec409; 
+    }
+    #offcanvas-navicon:after, #offcanvas-navicon:before, #offcanvas-navicon span { 
+        background: #fec409; 
+    }
+    #offcanvas-navicon:after, #offcanvas-navicon:after, #offcanvas-navicon span { 
+        background: #fec409; 
+    }
+    div#offcanvas-navicon {
+        background: none;
+        position: absolute;
+    }
+    .hero-wrepper h1 {
+        font-size: 51px; 
+    }
+    .hero-wrepper p {
+        font-size: 16px; 
+    }
+.section-title h2 {
+    font-size: 29px; 
+}
+.supplier-wrpper img {
+    margin-bottom: 35px;
+    width: 150px;
+    height: 150px;
+}
+.supplier-wrpper.two {
+    padding-top: 80px;
+}
+.supplier-wrpper.two {
+    padding-top: 80px;
+}
+
+.about-wrepper-right {
+    margin-top: 30px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.about-wrepper-right img {
+    width: 100%;
+}
+.footer-section {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer-section a img {
+    display: block;
+}
+ 
+
+.footer-section .footer-wiget  p {
+    bottom: 0;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.footer-wiget.text-right {
+    text-align: center !important;
+}
+
+.footer-wiget.text-right p {
+    padding: 0;
+}
+ 
+
+#side-bar-blk {
+	display: block;
+}
+    
+#side-bar-blk {
+  position: fixed;
+  width: 243px;
+  left: -100%;
+  height: 100%;
+  top: 0;
+  background: #000;
+  z-index: 99;
+  padding: 15px;
+  transition: .3s;
+}
+#side-bar-blk ul li a {
+  display: block;
+  color: #fff;
+}
+#side-bar-blk ul li {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.logo img { 
+  height: 98px;
+  margin-bottom: 21px;
+}
+.contact-menu a {
+  display: block;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.contact-menu a i {
+  margin-right: 15px;
+}
+.contact-menu a svg {
+  margin-right: 8px;
+}
+   .side-menu.active {
+	left: 0 !important;
+} 
+.checkOUT-wrepper {
+    padding-right: 45px;
+    margin-bottom: 50px;
+}    
+
+.filter-select a.search-btn {
+    width: 150%; 
+}
+.checkOUT-wrepper {
+    padding-right: 0;
+}
+.customer-brend.owl-carousel.owl-loaded.owl-drag .owl-nav .owl-prev { 
+    left: 0px;
+    font-size: 60px; 
+}
+.customer-brend.owl-carousel.owl-loaded.owl-drag .owl-nav .owl-next { 
+    right: 0px;
+    font-size: 60px; 
+}
+.footer-section .footer-wiget a.showINxs {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+  .menu-open {
+	display: block;
+} 
+.d-nn {
+	display: none;
+}  
+.menu-open {
+	position: absolute;
+	left: 20px;
+	background: none;
+	border: none;
+	font-size: 28px;
+	top: 12px;
+	color: #fff;
+	z-index: 9;
+}
+.showXs{
+    display: block;
+}
+.showXs svg { 
+    font-size: 26px;
+    color: #fff;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+button.menu-open.close-sdbar {
+    position: absolute;
+    display: block;
+    left: 200px;
+}    
+ #side-bar-blk {
+	display: block;
+}
+    
+#side-bar-blk {
+  position: fixed;
+  width: 243px;
+  left: -100%;
+  height: 100%;
+  top: 0;
+  background: #000;
+  z-index: 99;
+  padding: 15px;
+  transition: .3s;
+}
+#side-bar-blk ul li a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+}
+#side-bar-blk ul li {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.logo img { 
+  height: 98px;
+  margin-bottom: 21px;
+}
+.contact-menu a {
+  display: block;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.contact-menu a i {
+  margin-right: 15px;
+}
+.contact-menu a svg {
+  margin-right: 8px;
+}
+   .side-menu.active {
+	left: 0 !important;
+} 
+.header-section .logo-area img {
+    width: 70px;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
+}
+    div#offcanvas-navicon {
+        display: block !important;
+    }
+	.menu-area{
+        display: none
+    }
+    .contact-info {
+        text-align: right;
+    }
+
+    #offcanvas-navicon span { 
+        background: #fec409; 
+    }
+    #offcanvas-navicon:after, #offcanvas-navicon:before, #offcanvas-navicon span { 
+        background: #fec409; 
+    }
+    #offcanvas-navicon:after, #offcanvas-navicon:after, #offcanvas-navicon span { 
+        background: #fec409; 
+    }
+    div#offcanvas-navicon {
+        background: none;
+        position: absolute;
+    }
+    .hero-wrepper:before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 100px;
+        left: 0;
+        top: -30px;
+        background: #fec409;
+    }
+    .hero-wrepper:after {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 10px; 
+        top: -30px;
+        background: #fec409;
+    }
+    .hero-content:before{
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 100px;
+        right: 0;
+        bottom: -110px;
+        background: #fec409;
+    }  
+    .hero-content:after{
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 10px;
+        right: 0;
+        bottom: -110px;
+        background: #fec409;
+    }  
+    .hero-content {
+        padding: 0;
+        padding-top: 45px;
+    }
+    .hero-wrepper h1 {
+        font-size: 26px; 
+    }
+    .hero-wrepper p {
+	font-size: 14px;
+}
+    a.theme-btn { 
+        padding: 10px 25px; 
+    }
+    .section-title h2 {
+        font-size: 21px; 
+    }
+    .section-title h2 {
+        font-size: 21px; 
+    }
+    .supplier-wrpper img {
+        margin-bottom: 30px;
+        width: 100px;
+        height: 100px;
+    }
+    .supplier-wrpper h4 {
+        font-size: 26px; 
+    }
+    .body p {
+        margin-bottom: 50px;
+        font-size: 12px;
+    }
+    .supplier-wrpper.two {
+        margin-top: 70px;
+    }
+    .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title {
+        width: 300px; 
+        padding: 50px 0;  
+    }
+    .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title h1 { 
+        font-size: 66px;
+    }
+    .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title h5 { 
+        font-size: 20px;
+    }
+    .about-section .container-fluid .col-lg-6 .about-top-box p {
+        font-size: 16px;
+        color: #ccc;
+        padding-bottom: 40px;
+        margin: auto;
+        display: block;
+        padding-top: 50px;
+        width: 100%;
+        padding: 30px 27px;
+    }
+    .about-section .container-fluid .col-lg-6 .about-top-box.about-two .top-box-title:before { 
+        left: 135px;
+    }
+    .about-section .container-fluid .col-lg-6 .about-top-box.about-two .top-box-title:after { 
+        left: 270px; 
+    }
+    .about-wrepper-right {
+        margin-left: 0;
+    }
+    .about-section .about-wrepper-right h4 {
+        font-size: 20px;
+        font-family: nunito;
+        font-weight: 600;
+        padding-left: 37px;
+        padding-top: 0;
+    }
+    .accordion .card-header button.btn.btn-link.collapsed {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .accordion .card-header button.btn.btn-link{ 
+        font-size: 13px; 
+    }
+    .accordion .card-header button.btn.btn-link.collapsed svg { 
+        top: 10px;
+        font-size: 26px; 
+    }
+    .accordion .card-header button.btn.btn-link svg { 
+        top: 10px;
+        font-size: 26px; 
+    }
+    .contact-form input {
+        width: 100%; 
+        margin: 5px 0; 
+    }
+    .contact-form textarea {
+        width: 100%; 
+        margin-left: 0; 
+    }
+    .contact-form a.theme-btn.contact { 
+        width: 185px;
+        padding: 10px; 
+    }
+    .footer-section {
+        text-align: center;
+        padding: 30px 0;
+    }
+    
+    .footer-section a img {
+        display: block;
+    }
+     
+    
+    .footer-section .footer-wiget  p {
+        bottom: 0;
+        display: block;
+        padding-bottom: 40px;
+    }
+    
+    .footer-wiget.text-right {
+        text-align: center !important;
+    }
+    
+    .footer-wiget.text-right p {
+        padding: 0;
+    }
+    .footer-wiget.text-right ul li a {
+        font-size: 11px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+    .contact-section .section-title.contact-title h2 { 
+        font-size: 32px;
+    }
+    a.theme-btn {
+        font-size: 10px;
+        display: inline-block;
+    }
+    .about-section .about-wrepper h4 {
+        font-size: 31px; 
+    }
+    .independent-section h2 {
+        font-size: 26px; 
+    }
+    .contact-menu {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .contact-menu a:hover {
+        background: transparent !important;
+        color: #fec409 !important;
+      }
+      .contact-info { 
+        display: none;
+    }
+    .header-section { 
+        height: 65px;
+        background: #1f1f1f;
+    }
+    .contact-menu {
+        display: block !important;
+    }
+    .cetagories-box {
+        width: 145px;
+    }
+    a.big-text {
+        line-height: 30px;
+    }
+    .cetagories-box.inBIG {
+        padding: 40px 0px;
+    }
+    .cetagories-box a {
+        font-size: 17px;  
+    }
+    .customer-brend.owl-carousel.owl-loaded.owl-drag .owl-nav div{
+        display: none;
+    }
+    .checkOUT-wrepper { 
+        margin-bottom: 50px;
+        padding-right: 0;
+    }
+    .hero-styel-two h1 {
+        font-size: 50px; 
+    }
+    .filter-select {
+        display: block;
+        padding-bottom: 40px; 
+    }
+    .filter-select .nice-select{
+        margin-top: 10px;
+    }
+    .filter-select a.search-btn {
+        width: 150px;
+        background: #fec409;
+        text-align: center;
+        line-height: 42px;
+        color: #333;
+        font-weight: 700;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .checkOUT-wrepper h4 {
+        font-size: 31px;  
+    }
+    .checkOUT-wrepper a{
+        display: block;
+    }
+    .checkOUT-wrepper a.theme-btn {
+        padding: 10px 25px;
+        font-family: nunito; 
+        margin-top: 40px;
+        text-align: center;
+    }
+    .checkOUT-form { 
+        padding: 50px 0;
+    }
+    .checkOUT-form form h4 {
+        font-size: 26px; 
+    }
+    .checkOUT-form form p {
+        font-size: 18px; 
+    }
+    .input-form {
+        padding: 0px 10px;
+    }
+    .checkOUT-form form input {
+        width: 100%;
+        padding: 10px 10px;
+        border: none;
+        margin-bottom: 10px;
+        outline: none;
+        font-size: 12px;
+    }
+    .checkOUT-form form textarea { 
+        height: 100px;
+        font-size: 12px;
+    }
+    .checkOUT-form form a {
+        width: 150px; 
+        font-size: 12px; 
+    }
+    .filter-detailse .short-select .nice-select {
+        padding-right: 40px;
+        border-radius: 0;
+        font-family: InterstateCompressedRegular;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #333;
+        float: right;
+    }
+
+    .filter-detailse .short-select {
+        float: left;
+        padding: 18px 0;
+    }
+    .tyres-box {
+        padding-top: 30px;
+    }
+    img.img-two {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .center {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    /* tr td {
+        width: 50% !important;
+        display: inline-block;
+    } */
+    td {
+        color: #383838;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+
+    .contact-left h3 {
+        font-size: 27px;
+        text-transform: uppercase;
+    }
+    .contact-number ul li a { 
+        font-size: 20px; 
+        padding-left: 30px;
+    }
+    .contact-number ul li a svg {
+        position: absolute;
+        left: 0;
+        top: 3px;
+        font-size: 20px !important;
+    }
+    .contact-left.mail a svg {
+        top: 5px;
+    }
+    div#accordionExample div button.btn.btn-link.collapsed {
+        font-size: 9px;
+        padding: 15px;
+        padding-left: 5px;
+    }
+    div#accordionExample div button.btn.btn-link {
+        font-size: 9px;
+        padding: 15px;
+        padding-left: 5px;
+    }
+    div#accordionExample div button.btn.btn-link.collapsed span {
+        width: 40px;
+        line-height: 45px;
+        font-size: 14px;
+    }
+    div#accordionExample div button.btn.btn-link span {
+        width: 40px;
+        line-height: 45px;
+        font-size: 14px;
+    }
+    div#accordionExample .card-body {
+        padding: 10px !important; 
+        font-size: 10px;
+    }
+    .hero-fetures .hero-feture-wrepper img {
+        display: block;
+        margin: auto;
+        width: 40px;
+        padding-bottom: 5px;
+    }
+    .hero-fetures .hero-feture-wrepper {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .hero-fetures .hero-feture-wrepper h5 { 
+        font-size: 12px; 
+    }
+    .hideINxs{
+        display: none !important;
+    }
+    .showINxs{
+        display: block !important;
+    }
+    .independent-section {
+        background: #ededed;
+    } 
+    .independent-section .independent-wrepper p{
+    color: #393939;
+    }
+    .independent-section .independent-wrepper a.theme-btn { 
+        display: none;
+    }
+    .independent-section .independent-wrepper h2 {
+        padding-bottom: 0px;
+        color: #333;
+        font-size: 48px;
+    }
+    .footer-wiget.last-wiget p {
+        bottom: 0;
+        display: block;
+        padding-bottom: 0;
+    }
+    .footer-wiget.last-wiget {
+        padding-top: 50px;
+    }
+    .footer-contact-info a.showINxs {
+        font-size: 27px;
+        font-family: InterstateCompressedRegular;
+        color: #FFF;
+    }
+    
+    .footer-contact-info a.showINxs span {
+        color: #fec409;
+    } 
+
+
+
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .menu-open {
+	display: block;
+}
+.showXs{
+    display: none;
+  }
+    .header-section { 
+        height: auto;
+    }
+    .about-section .about-wrepper h4 {
+        font-size: 34px; 
+    }
+    .hero-wrepper h1 {
+        font-size: 42px; 
+    }
+    .hero-content {
+        padding: 100px;
+        position: relative;
+    }
+    .hero-content {
+        padding: 50px; 
+    }
+    .section-title h2 {
+        font-size: 23px; 
+    }
+    .section-title p {
+        font-size: 12px;
+    }
+    
+    .supplier-wrpper.two {
+        margin-top: 80px;
+    }
+    .supplier-wrpper img {
+        margin-bottom: 50px;
+        width: 200px;
+        height: 200px;
+    }
+    .about-wrepper-right {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    
+    .contact-section .section-title.contact-title h2 {
+        font-size: 35px;
+    }
+    
+    .contact-form a.theme-btn.contact {
+        width: 165px;
+    }
+    .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title:after {content: "";position: absolute;width: 15px;height: 150px;background: #fec409;left: -15px;bottom: -15px;} 
+    .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title:before {content: "";position: absolute;width: 150px;height: 15px;background: #fec409;bottom: -15px;left: 0;}
+
+    .about-section .container-fluid .col-lg-6 .about-top-box.about-two .top-box-title:after {content: "";position: absolute;width: 15px;height: 150px;background: #fec409;left: 370px;top: -15px;} 
+    .about-section .container-fluid .col-lg-6 .about-top-box.about-two .top-box-title:before {content: "";position: absolute;width: 150px;height: 15px;background: #fec409;top: -15px;left: 235px;}
+    .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title {
+        width: 400px; 
+    }
+    .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title h1 { 
+        font-size: 95px;
+    }
+    .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title h5 { 
+        font-size: 28px;
+    }
+    .about-section .container-fluid .col-lg-6 .about-top-box p {
+        font-size: 18px;
+        color: #ccc;
+        padding-bottom: 40px;
+        width: 450px;
+        margin: auto;
+        display: block;
+        padding-top: 50px;
+    }
+    .about-section .container-fluid .col-lg-6 .about-top-box.about-two .top-box-title:before { 
+        left: 235px;
+    }
+    .about-section .container-fluid .col-lg-6 .about-top-box.about-two .top-box-title:after { 
+        left: 370px; 
+    }
+    .about-section .about-wrepper-right h4 {
+        font-size: 32px;
+        font-family: nunito;
+        font-weight: 600;
+        padding-left: 70px;
+        padding-top: 20px;
+    }
+    .accordion .card-header button.btn.btn-link.collapsed { 
+        font-size: 20px; 
+    }
+    .accordion .card-header button.btn.btn-link { 
+        font-size: 20px; 
+    }
+    .accordion .card-header button.btn.btn-link.collapsed svg { 
+        top: 5px;
+        font-size: 40px; 
+    }
+    .accordion .card-header button.btn.btn-link svg { 
+        top: 5px;
+        font-size: 40px; 
+    }
+    .contact-form input {
+        width: 48%;
+        padding: 10px 20px;
+        border: none;
+        margin: 6px 4px;
+        outline: none;
+    }
+    .contact-form textarea {
+        width: 98%;
+        border: none;
+        height: 150px;
+        margin-left: 4px; 
+    }
+    .contact-form a.theme-btn.contact { 
+        width: 250px;
+        padding: 14px; 
+    }
+    a.theme-btn { 
+        font-size: 16px; 
+    }
+    .independent-section h2 {
+        font-size: 47px; 
+    }
+    .contact-info ul li a {
+        font-size: 16px; 
+    }
+    .contact-info {
+        text-align: right;
+        padding: 5px;
+        padding-right: 50px;
+        display: block;
+    }
+    .contact-menu {
+        display: none;
+    }
+    .cetagories-box {
+        width: 210px; 
+    }
+    a.big-text {
+        line-height: 26px;
+    }
+    .customer-brend.owl-carousel.owl-loaded.owl-drag .owl-nav div{
+        display: block;
+    }
+     
+    .header-section {  
+        background: #fff;
+    }
+    .header-section .logo-area img { 
+        left: 35px; 
+    }
+    .menu-open { 
+        left: 90%;
+    }
+    .hero-styel-two h1 {
+        font-size: 70px;
+        color: #fff;
+    }
+    .checkOUT-wrepper a svg { 
+        margin-left: 20px;
+    }
+    .checkOUT-wrepper h4 {
+        font-size: 40px; 
+    }
+    .checkOUT-wrepper a.theme-btn {
+        padding: 10px 25px;
+        font-family: nunito;
+        display: inline-block;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .checkOUT-wrepper a{
+        display: inline-block;
+    }
+    .checkOUT-form { 
+        padding: 50px 45px;
+    }
+    .checkOUT-form form h4 {
+        font-size: 42px; 
+    }
+    .checkOUT-form form p {
+        font-size: 15px; 
+    }
+    .input-form {
+        padding: 0 30px;
+    }
+    .checkOUT-form form input {
+        width: 100%;
+        padding: 12px 15px; 
+        font-size: 16px;
+    }
+    .checkOUT-form form textarea { 
+        height: 130px;
+        font-size: 16px;
+    }
+    .checkOUT-form form a {
+        width: 235px; 
+        font-size: 20px; 
+    }
+    .filter-detailse .short-select {
+        float: right;
+        padding: 0px 0;
+    }
+    img.img-two {
+        margin-top: 60px;
+        margin-bottom: 00px;
+    }
+    tr td {
+        width: 20% !important;
+        display: inline-block;
+    }
+    td {
+        color: #383838;
+        padding-left: 15px;
+        font-size: 15px;
+    }
+    div#accordionExample div button.btn.btn-link.collapsed { 
+        font-size: 15px; 
+    }
+    .contact-left h3 {
+        font-size: 27px;
+        text-transform: uppercase;
+    }
+    .contact-number ul li a { 
+        font-size: 20px; 
+        padding-left: 30px;
+    }
+    .contact-number ul li a svg {
+        position: absolute;
+        left: 0;
+        top: 3px;
+        font-size: 20px !important;
+    }
+    .contact-left.mail a svg {
+        top: 5px;
+    }
+    .hero-fetures .hero-feture-wrepper img {
+        display: inline-block;
+        margin: auto;
+        width: 60px;
+        padding-bottom: 5px;
+    }
+    .hero-fetures .hero-feture-wrepper h5 { 
+        font-size: 18px; 
+    }
+    .menu-open {
+        position: absolute;
+        right: 20px;
+        background: none;
+        border: none;
+        font-size: 28px;
+        top: 12px;
+        color: #fec409;
+        z-index: 9;
+    }
+    .hero-fetures .hero-feture-wrepper { 
+        text-align: left;
+    }
+}

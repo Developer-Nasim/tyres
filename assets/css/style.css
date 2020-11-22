@@ -1,0 +1,1558 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900|Oswald:200,300,400,500,600,700&display=swap');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Interstate-BlackCompressed; 
+  margin: 0 0 15px;
+  font-weight: 300;
+  color: #383838;
+}
+textarea{
+  outline: none;
+}
+@font-face {
+  font-family: Interstate-BlackCompressed;
+  src: url(../fonts/Interstate-BlackCompressed_24115.ttf);
+}
+
+@font-face {
+  font-family: Interstate-regular;
+  src: url(../fonts/Interstate-regular.ttf);
+}
+
+@font-face {
+  font-family: InterstateCompressedRegular;
+  src: url(../fonts/InterstateCompressedRegular.otf);
+}
+
+
+@font-face {
+  font-family: InterstateCompressedRegular;
+  src: url(../fonts/InterstateCompressedRegular.otf);
+}
+
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #5d5d5d;
+  font-weight: 300;
+  font-size: 16px;
+}
+/* html {
+  scroll-behavior: smooth;
+} */
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+a:hover { text-decoration: none }
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+}
+#side-bar-blk {
+	display: none;
+}
+.about-section {
+	overflow: hidden;
+}
+.menu-open {
+	position: absolute;
+	right: 0;
+}
+.pLr-0{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+ 
+.header-section .container {
+    max-width: 1280px;
+}
+.pt-30{
+  padding-top: 30px;
+}
+.section-padding{
+  padding-top: 70px;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+div#offcanvas-navicon {
+  display: none;
+}
+.contact-menu {
+  display: none;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.container {
+  max-width: 1280px;
+}
+.showXs{
+  display: none;
+}
+.footer-section .footer-wiget a.showINxs {
+  display: none;
+}
+.showINxs{
+  display: none;
+}
+ /* bass css END ==================================*/
+
+
+
+ 
+ .header-section {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: #fff;
+  z-index: 3;
+}
+.header-section nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header-section nav ul li a {
+	padding: 20px 14px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #1f1f1f;
+	text-transform: uppercase;
+	display: inline-block;
+	font-family: Interstate-regular;
+  transition: .3s;
+  position: relative;
+}
+.header-section nav ul li a:hover {
+  color: #fec409;
+}
+a.active {position: relative;}
+
+a.active:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  bottom: 0;
+  left: 0;
+  background: #fec409;
+  transition: .3s;
+}
+.header-section nav ul li a::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  transition: .3s;
+} 
+.header-section nav ul li a:hover::before {
+  background: #fec409;
+}
+.header-section .logo-area {
+  position: relative;
+}
+
+.header-section .logo-area img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contact-info ul li {
+  display: inline-block;
+}
+
+.contact-info ul li a {
+	font-size: 20px;
+	font-weight: 400;
+	color: #1f1f1f;
+	display: inline-block;
+	padding: 15px 20px;
+	padding-right: 0;
+	font-family: InterstateCompressedRegular;
+}
+.contact-info {
+	text-align: right;
+}
+.contact-info ul li a svg {
+  color: #fec409;
+  margin-right: 5px;
+}
+
+/*===================================================================================================================== 
+                                              header-section CSS END
+ =====================================================================================================================*/
+.hero-area {
+  width: 100%;  
+  padding: 200px 0;
+  padding-bottom: 150px;
+  position: relative;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+.hero-area:after {content: "";position: absolute;width: 100%;height: 100%;z-index: -1;background: #00000094;top: 0;left: 0;}
+.hero-wrepper {
+  position: relative;
+  text-align: center;
+}
+.hero-wrepper:after {content: "";position: absolute;width: 250px;height: 15px;background: #fec409;top: 0;left: 0;}
+
+.hero-wrepper:before {content: "";position: absolute;width: 15px;height: 250px;left: 0;top: 0;background: #fec409;}
+.hero-wrepper h1 {
+  font-size: 70px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.hero-wrepper p {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.hero-content {
+  padding: 100px; 
+  position: relative;
+}
+ 
+.hero-content:after {content: "";position: absolute;width: 250px;height: 15px;background: #fec409;bottom: 0;right: 0;}
+
+.hero-content:before {content: "";position: absolute;width: 15px;height: 250px;right: 0;bottom: 0;background: #fec409;}
+a.theme-btn {
+  background: #fec409;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333;
+  padding: 10px 50px;
+  word-spacing: 5px;
+}
+a.theme-btn.active {
+  background: #fff;
+}
+a.theme-btn.active:after{
+  display: none;
+}
+.hero-wrepper  a {
+  margin-top: 20px;
+  display: inline-block;
+  margin-right: 15px;
+}
+/* hero-area css END */
+.hero-fetures {
+  padding: 50px 0;
+  padding-top: 20px;
+  background: #fff;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.hero-fetures .hero-feture-wrepper h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: nunito;
+  text-transform: uppercase;
+}
+.hero-fetures .hero-feture-wrepper {
+  padding-top: 30px;
+}
+
+.hero-fetures .hero-feture-wrepper img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+/*===================================================================================================================== 
+                                              hero-section CSS END
+ =====================================================================================================================*/
+
+
+
+
+/*===================================================================================================================== 
+                                               Section-title CSS START
+ =====================================================================================================================*/
+ 
+  .section-title {
+    padding-bottom: 50px;
+  }
+ .section-title h2 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #fec409;
+}
+ 
+.section-title p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5d5d5d;
+}
+/*===================================================================================================================== 
+                                              Section-title CSS END
+ =====================================================================================================================*/
+
+
+ .supplier-wrpper h4 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.supplier-wrpper img {
+  margin-bottom: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+.supplier-wrpper h4 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.supplier-wrpper p {
+  margin-bottom: 50px;
+}
+ 
+
+/*===================================================================================================================== 
+                                              supplier-section CSS END
+ =====================================================================================================================*/
+ 
+ .about-section .container-fluid {
+     padding: 0;
+     text-align: center;
+     overflow: hidden;
+ }
+ 
+ .about-section .container-fluid .col-lg-6 .about-top-box {
+     background-image: url(../img/img-16.jpg);
+     background-size: cover;
+     background-position: center;
+     padding: 100px 0px;
+ } 
+ .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title:after {content: "";position: absolute;width: 15px;height: 150px;background: #fec409;left: -15px;bottom: -15px;} 
+ .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title:before {content: "";position: absolute;width: 150px;height: 15px;background: #fec409;bottom: -15px;left: 0;}
+
+ .about-section .container-fluid .col-lg-6 .about-top-box.about-two {
+  background-image: url(../img/img-17.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+} 
+.about-section .container-fluid .col-lg-6 .about-top-box.about-two .top-box-title:after {content: "";position: absolute;width: 15px;height: 150px;background: #fec409;left: 370px;top: -15px;} 
+.about-section .container-fluid .col-lg-6 .about-top-box.about-two .top-box-title:before {content: "";position: absolute;width: 150px;height: 15px;background: #fec409;top: -15px;left: 235px;}
+ .about-section .container-fluid .col-lg-6 {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title {
+     width: 400px;
+     margin: auto;
+     padding: 75px 0;
+     border: 15px solid #ffffff70;
+     position: relative;
+ }
+ 
+ .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title h1 {
+     color: #fff;
+     font-weight: 500;
+     font-size: 95px;
+ }
+ 
+ .about-section .container-fluid .col-lg-6 .about-top-box .top-box-title h5 {
+     color: #fff;
+     font-family: nunito;
+     font-weight: 700;
+     font-size: 28px;
+ }
+  
+ .about-section .container-fluid .col-lg-6 .about-top-box p {
+  font-size: 18px;
+  color: #ccc;
+  padding-bottom: 40px;
+  width: 450px;
+  margin: auto;
+  display: block;
+  padding-top: 50px;
+}
+ .about-section .container {
+  padding-top: 100px;
+}
+.menu-open {
+	display: none;
+}
+
+.about-section .about-wrepper h4 {
+  font-size: 33px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+
+.about-section .about-wrepper-right img {
+  margin-bottom: 50px;
+}
+
+.about-section .about-wrepper-right h4 {
+  font-size: 32px;
+  font-family: nunito;
+  font-weight: 600;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.about-section .about-wrepper-right h4 span {
+  color: #fec409;
+}
+ .about-wrepper-right {
+    margin-left: 30px;
+    position: relative;
+    padding-bottom: 40px;
+}
+.about-section .about-wrepper a.theme-btn {
+  margin-top: 30px;
+  display: inline-block;
+}
+.about-wrepper-right:after {content: "";position: absolute;width: 150px;height: 15px;background: #fec409;bottom: 0;left: 0;}
+
+.about-wrepper-right:before {content: "";position: absolute;width: 15px;height: 150px;background: #fec409;bottom: 0;left: 0;}
+/*===================================================================================================================== 
+                                               about-section CSS END
+ =====================================================================================================================*/
+ .independent-section {
+  background: #7c7c7c;
+}
+
+.independent-section h2 {
+  font-size: 47px;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.independent-section .independent-wrepper h2 {
+  padding-bottom: 20px;
+}
+
+.independent-section .independent-wrepper p {
+  color: #ccc;
+}
+
+.independent-section .independent-wrepper a.theme-btn {
+  margin-top: 35px;
+  display: inline-block;
+}
+
+ 
+/*===================================================================================================================== 
+                                              independent-section CSS END
+ =====================================================================================================================*/
+ 
+ .customers-section .section-title h2 {
+  text-transform: uppercase;
+  color: #383838;
+  font-weight: 900;
+}
+
+.sing-brend {
+  text-align: center;
+  width: 60% !important; 
+  margin: auto;
+}
+
+.sing-brend img {
+  text-align: center;
+  margin: auto;
+}
+
+.customer-brend.owl-carousel.owl-loaded.owl-drag .owl-nav div { 
+  transition: .3s;
+}
+.customer-brend.owl-carousel.owl-loaded.owl-drag .owl-nav div:hover { 
+  color: #fec409;
+  opacity: 1;
+}
+.customer-brend.owl-carousel.owl-loaded.owl-drag .owl-nav .owl-prev {
+  position: absolute;
+  top: -27px;
+  left: 0px;
+  font-size: 80px;
+  opacity: .2;
+  transition: .3s;
+}
+.customer-brend.owl-carousel.owl-loaded.owl-drag .owl-nav .owl-next {
+  position: absolute;
+  top: -27px;
+  right: 0px;
+  font-size: 80px;
+  opacity: .2;
+  transition: .3s;
+}
+img.b5 {
+  width: 100%;
+  height: 70px;
+}
+/*===================================================================================================================== 
+                                              customers-section CSS END
+ =====================================================================================================================*/
+ .categories-section {
+  padding-bottom: 100px;
+  text-align: center;
+}
+ .cetagories-box {
+  width: 210px;
+  background: url(../img/img-2.jpg);
+  display: inline-block;
+  height: 140px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 4px;
+  margin-bottom: 5px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 40px 30px
+}
+
+.cetagories-box a {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Oswald;
+  color: #fec409;
+  text-align: center;
+  margin: auto;
+  line-height: 70px;
+}
+a.big-text {
+  line-height: 26px;
+}
+.cetagories-box:after {content: "";position: absolute;width: 100%;height: 100%;top: 0;left: 0;background: #0000008a;z-index: -1;}
+
+.cetagories-box a svg {
+  position: absolute;
+  right: 17px;
+  top: 52%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+}
+.cetagories-box a.big-text svg {
+  visibility: hidden;
+  opacity: 0;
+  right: 0px;
+  top: 58%;
+}
+.cetagories-box a:hover svg {
+  visibility: visible;
+  opacity: 1;
+  right: 23px;
+}
+.cetagories-box a.big-text:hover svg {
+  visibility: visible;
+  opacity: 1;
+  right: 10px;
+}
+/*===================================================================================================================== 
+                                              categories-section CSS END
+ =====================================================================================================================*/
+
+
+
+ .FAQ-section { 
+  position: relative;
+  z-index: 2;
+}
+
+.FAQ-section:after {content: "";position: absolute;width: 100%;height: 100%;background: #00000024;top: 0;left: 0;z-index: -1;}
+
+.FAQ-section .section-title h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.FAQ-section .section-title p {
+  color: #ccc;
+  font-size: 18px;
+}
+.accordion {
+  margin-bottom: 30px;
+  border-radius: 0;
+}
+
+.accordion .card-header {
+  padding: 0;
+  margin: 0;
+  background: #fec409;
+  border: none;
+}
+
+h2.mb-0 {
+  border: none;
+}
+
+.accordion .card-header button.btn.btn-link.collapsed {
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-family: nunito;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 25px;
+  color: #383838;
+}
+
+.accordion .card-header button.btn.btn-link.collapsed:hover {
+  text-decoration: none;
+}
+
+.accordion .card-header button.btn.btn-link.collapsed:hover:focus {
+  text-decoration: none;
+}
+
+.accordion .card-header button.btn.btn-link.collapsed  svg {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  font-size: 40px;
+  color: #000;
+  transform: rotate(180deg);
+  transition: .3s;
+}
+.accordion .card-header button.btn.btn-link {
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-family: nunito;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 25px;
+  color: #383838;
+  text-decoration: none;
+}
+
+ 
+
+.accordion .card-header button.btn.btn-link:hover:focus {
+  text-decoration: none;
+}
+
+.accordion .card-header button.btn.btn-link  svg {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  font-size: 40px;
+  color: #000;
+  transform: rotate(0deg);
+  transition: .3s;
+}
+.card {
+  border: none;
+  border-radius: 0;
+  margin: 10px 0;
+}
+.FAQ-section a.theme-btn.two {
+  text-align: center;
+  margin: auto;
+  margin-bottom: -50px;
+  padding: 13px 40px;
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  margin-top: 30px;
+  transition: .3s;
+}
+
+
+.FAQ-section a.theme-btn.two:hover {
+  color: #383838;
+  background: #fec409;
+  border: 2px solid #fec409;
+}
+/*===================================================================================================================== 
+                                              FAQ-section CSS END
+ =====================================================================================================================*/
+ .contact-section {
+  background: #fec409;
+}
+
+
+.contact-section .section-title.contact-title h2 {
+  color: #383838;
+  font-weight: 900;
+  font-size: 49px;
+}
+
+.contact-section .section-title.contact-title p {
+  font-size: 18px;
+}
+.contact-form input {
+  width: 48%;
+  padding: 10px 20px;
+  border: none;
+  margin: 6px 4px;
+  outline: none;
+}
+
+.contact-form textarea {
+  width: 98%;
+  border: none;
+  height: 150px;
+  margin-left: 4px;
+  margin-top: 7px;
+  outline: none;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-form a.theme-btn.contact {
+  display: block;
+  background: #383838;
+  width: 250px;
+  padding: 14px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
+/*===================================================================================================================== 
+                                              contact-section CSS END
+ =====================================================================================================================*/
+ .footer-section {
+  background: #1f1f1f;
+  padding: 30px 0;
+}
+.footer-section {
+  background: #1f1f1f;
+  padding: 30px 0;
+}
+
+.footer-section .footer-wiget a {
+  display: inline-block;
+}
+
+.footer-section .footer-wiget p {
+  display: inline-block;
+  margin: 0;
+  font-size: 12px;
+  color: #ccc;
+  padding-left: 13px;
+  position: relative;
+  bottom: -50px;
+}
+.footer-wiget.text-right p {
+  bottom: 0;
+  margin-top: 20px;
+}
+
+ 
+
+.footer-wiget.text-right ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Oswald;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 20px;
+  transition: .3s;
+}
+
+.footer-contact-info {
+  margin-top: 15px;
+}
+
+.footer-contact-info ul li a svg {
+  color: #fec409;
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.footer-wiget.text-right p a {
+  color: #fec409;
+  text-decoration: underline;
+}
+
+.footer-wiget.text-right ul li a:hover {
+  color: #fec409;
+  text-decoration: underline;
+}
+/*===================================================================================================================== 
+                                              footer-section CSS END
+ =====================================================================================================================*/
+
+
+
+
+
+
+
+/*==========================================================================================================================================================================================================================================  
+                                                                                                      HomePage END
+ ========================================================================================================================================================================================================================================== */
+
+ .hero-section {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-section:after {content: "";position: absolute;width: 100%;height: 100%;background: #0000008f;top: 0;left: 0;z-index: -1;}
+ .hero-styel-two {
+  padding: 100px 0;
+  padding-top: 150px;
+}
+.hero-styel-two h1 {
+  font-size: 120px;
+  color: #fff;
+}
+/*===================================================================================================================== 
+                                              Hero-section CSS END
+ =====================================================================================================================*/
+ .checkOUT-wrepper h4 {
+  font-size: 40px;
+  color: #fec409;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.checkOUT-wrepper h4 span {
+  display: block;
+  color: #333;
+}
+
+.checkOUT-wrepper a {
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 18px;
+  color: #333;
+  font-family: InterstateCompressedRegular;
+}
+
+.checkOUT-wrepper a.theme-btn {
+  padding: 10px 25px;
+  font-family: nunito;
+}
+
+.checkOUT-wrepper a svg {
+  color: #fec409;
+  margin-right: 5px;
+  margin-left: 25px;
+}
+
+.checkOUT-form {
+  background: #fec409;
+  padding: 50px 44px;
+}
+
+.checkOUT-form form h4 {
+  font-size: 42px;
+  text-align: center;
+  margin: 0;
+}
+.checkOUT-form form p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 5px;
+  margin-bottom: 35px;
+}
+.input-form {
+  padding:0 30px
+}
+.checkOUT-form form input {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  margin-bottom: 10px;
+  outline: none;
+}
+textarea { 
+  color: #8e7575;
+}
+.checkOUT-form form textarea {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border: none;
+  height: 130px;
+}
+
+.checkOUT-form form a {
+  width: 235px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 0;
+  background: #333;
+  padding-top: 11px;
+}
+.checkOUT-wrepper {
+  padding-right: 45px;
+} 
+
+ /*===================================================================================================================== 
+                                              CheckOUT CSS END
+ =====================================================================================================================*/
+ .product-tyres {
+  border-top: 1px solid #eaeaea;
+  padding-top: 30px;
+}
+.filter-select {
+  display: flex;
+  padding-bottom: 40px;
+}
+.filter-select .nice-select {
+  width: 100%;
+  margin-right: 15px;
+  border-radius: 0;
+  background: #dadada;
+  font-family: InterstateCompressedRegular;
+  font-size: 20px;
+  color: #333;
+}
+.product-tyres .nice-select::before {
+  border-bottom: 2px solid #999;
+  border-right: 2px solid #999;
+  content: '';
+  display: block;
+  height: 5px;
+  margin-top: -4px;
+  pointer-events: none;
+  position: absolute;
+  right: 12px;
+  top: 70%; 
+  transition: all 0.15s ease-in-out;
+  width: 5px; 
+  transform: rotate(45deg);
+}
+.product-tyres .nice-select:after {
+  border-bottom: 2px solid #999;
+  border-right: 2px solid #999;
+  content: '';
+  display: block;
+  height: 5px;
+  margin-top: -4px;
+  pointer-events: none;
+  position: absolute;
+  right: 12px;
+  top: 30%;
+  transition: all 0.15s ease-in-out;
+  width: 5px;
+  transform: rotate(-130deg);
+}
+.filter-select a.search-btn {
+  width: 100%;
+  background: #fec409;
+  text-align: center;
+  line-height: 42px;
+  color: #333;
+  font-weight: 700;
+}
+.product-filter h5 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.filter-select a.search-btn svg {
+  margin-right: 5px;
+}
+.nice-select ul.list {
+  width: 100%;
+} 
+.nice-select ul.list li.option {
+  display: block;
+}
+.product-filter h5 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+ 
+.filter-detailse h5 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+h3.detailse {
+  font-size: 40px;
+  font-family: Interstate-BlackCompressed;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.filter-detailse .short-select {
+  float: right;
+}
+
+.filter-detailse .short-select .nice-select {
+  padding-right: 96px;
+  border-radius: 0;
+  font-family: InterstateCompressedRegular;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #333;
+  float: right;
+}
+.filter-detailse .short-select p {
+  display: inline-block;
+  font-size: 20px;
+  color: #333;
+  font-family: Interstate-BlackCompressed;
+  margin-right: 10px;
+  margin-top: 7px;
+}
+/* product-filter end */
+ 
+.main-product-tyres .tyres-box .row {
+  padding-top: 20px;
+}
+
+.main-product-tyres .tyres-box .row h5.product-lefttext {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: InterstateCompressedRegular;
+}
+
+.main-product-tyres .tyres-box .row h5.product-lefttext span {
+  color: #9c9c9c;
+}
+
+.main-product-tyres .tyres-box .row .product-right.text-right h5 {
+  text-transform: uppercase;
+  font-family: InterstateCompressedRegular;
+  color: #9c9c9c;
+}
+
+h2.tyres-price {
+  font-family: InterstateCompressedRegular;
+  font-size: 40px;
+  color: #58b316;
+}
+
+.tyres-box a.buy-btn {
+  width: 75%;
+  background: #fec409;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Interstate-regular;
+  color: #333;
+  margin-right: 9px;
+  font-size: 19px;
+}
+
+.tyres-box a.icons-buy {
+  width: 19%;
+  background: #333333;
+  display: inline-block;
+  text-align: center;
+  line-height: 48px;
+  position: relative;
+  top: -1px;
+}
+
+.tyres-box h3 {
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+  position: relative;
+  top: -5px;
+}
+.tyres-box:hover h3 {
+  visibility: visible;
+  opacity: 1;
+  top: 0px;
+}
+.tyres-box h3 span {
+  font-size: 19px;
+  color: #e93939;
+}
+.tyres-box a.icons-buy svg {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: -5px;
+  transform: rotate(180deg);
+}
+h2.tyres-price span {
+  color: #333;
+  font-size: 20px;
+}
+.ptb {
+  padding-top: 30px;
+  margin-top: 30px;
+  border-top: 1px solid #eaeaea;
+}
+
+ 
+ /*===================================================================================================================== 
+                                              TYRES PRODUCT END
+ =====================================================================================================================*/
+ 
+.section-title.contact-title.sTitleTwo {
+  padding-bottom: 30px;
+}
+.section-title.contact-title.sTitleTwo .title-info a {
+  padding-top: 15px;
+  display: inline-block;
+  font-size: 30px;
+  font-family: InterstateCompressedRegular;
+  color: #333;
+  margin: 0 20px;
+}
+
+.section-title.contact-title.sTitleTwo .title-info a svg {
+  margin-right: 5px;
+}
+.contact-form p {
+  text-align: center;
+  font-size: 18px;
+}
+
+/*==========================================================================================================================================================================================================================================  
+                                                                                                      BUYTYERS page END
+ ========================================================================================================================================================================================================================================== */
+
+
+
+ .section-title.sTitleThree h2 {
+  font-size: 50px;
+  color: #333;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+}
+
+.section-title.sTitleThree h2 {
+  font-size: 50px;
+  color: #333;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+}
+
+.submissions-form form label {
+  font-size: 16px;
+  color: #727275;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submissions-form form label span {
+  color: #fec409;
+}
+
+.submissions-form form input {
+  width: 100%;
+  padding: 13px;
+  outline: none;
+  border: 1px solid #d1d1d1;
+  margin-bottom: 20px;
+  transition: .3s;
+}
+.submissions-form form input:hover {
+  background: #fcf8ec;
+  border: 1px solid #fdc308;
+} 
+.submissions-form form .nice-select {
+  width: 100%;
+  border-radius: 0;
+  margin-bottom: 20px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+}
+.submissions-form .nice-select::after {
+  border-bottom: 0px;
+  border-right: 0px;
+  width: 20px !important;
+  height: 3px !important;
+  background: #000;
+  transform: rotate(136deg);
+  right: 20px;
+  top: 29px;
+}
+.submissions-form .nice-select::before {
+  content: "";
+  position: absolute;
+  right: 28px;
+  top: 24px;
+  width: 20px !important;
+  height: 3px !important;
+  background: #000;
+  transform: rotate(40deg);
+}
+.submissions-form form textarea {
+  width: 100%;
+  padding: 15px;
+  border: #d1d1d1;
+  color: #5d5d5d;
+  height: 125px;
+  margin-bottom: 30px;
+}
+.submissions-form form a.theme-btn {
+  margin: auto;
+  text-align: center;
+  width: 265px;
+  display: block;
+  padding: 15px;
+  background: #333;
+  color: #fff;
+}
+ 
+
+ /*===================================================================================================================== 
+                                              Submission CSS END
+ =====================================================================================================================*/
+
+
+/*==========================================================================================================================================================================================================================================  
+                                                                                                      Submission page END
+ ========================================================================================================================================================================================================================================== */
+ 
+
+
+ .hero-section.hero-two:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #00000000;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.checkOUT-area.checkOUT-area-two .checkOUT-wrepper p {
+  padding-bottom: 30px;
+}
+
+.checkOUT-area.checkOUT-area-two .checkOUT-wrepper a.theme-btn {
+  margin-top: 30px;
+}
+img.img-two {
+  margin-top: 60px;
+}
+/* hero & checkOut css END */
+
+.blogs-area h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+img.img-two {
+  margin-top: 60px;
+} 
+.blogs-area h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.blogs-area .blog-box {
+  margin-top: 30px;
+}
+
+.blogs-area .blog-box h4 {
+  padding-top: 20px;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.blogs-area .blog-box  a {
+  font-family: Interstate-regular;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fec409;
+}
+ 
+
+ /*=======================================================================
+                                              footer-section CSS END
+ ============================================================================*/
+
+ /*=======================================================================================================================================================================================================
+                                              Safty page END
+ ==========================================================================================================================================================================================================*/
+ table{
+  margin-top: 20px;
+  margin-bottom: 30px;
+ }
+ 
+ .checkOUT-wrepper.wTable {
+  padding-right: 20px;
+}
+ tr:nth-child(even) {
+  background: #f5f5f5;
+}
+tr:nth-child(odd) {
+  font-weight: 600;
+}
+ td {
+  color: #383838;
+  padding-left: 15px;
+}
+
+
+ /*===================================================================================================================== 
+                                              CheckOUTtable CSS END
+ =====================================================================================================================*/
+
+
+ /*==========================================================================================================================================================================================================================================  
+                                                                                                       BRAND PAGE END
+ ========================================================================================================================================================================================================================================== */
+
+ div#accordionExample div {
+  padding: 0;
+}
+div#accordionExample div button.btn.btn-link.collapsed {
+  width: 100%;
+  text-align: left;
+  border-radius: 0;
+  border: none;
+  background: #e8e8e8;
+  outline: none;
+  color: #383838;
+  text-transform: capitalize;
+  font-family: Interstate-regular;
+  font-size: 18px;
+  text-decoration: none;
+  position: relative;
+  margin: 0;
+  padding: 15px;
+  transition: .3s;
+}
+div#accordionExample div button.btn.btn-link.collapsed:hover {
+  background: #fec409;
+}
+div#accordionExample div button.btn.btn-link.collapsed span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  background: #e8e8e8;
+  text-align: center;
+  line-height: 55px;
+  font-size: 22px;
+  color: #333;
+  transition: .3s;
+}
+
+div#accordionExample div button.btn.btn-link.collapsed:hover span {
+  background: #333;
+  color: #fec409;
+}
+div#accordionExample .card-body {
+  padding: 20px !important;
+  background: #e8e8e8;
+}
+div#accordionExample div button.btn.btn-link {
+  width: 100%;
+  text-align: left;
+  border-radius: 0;
+  border: none;
+  background: #e8e8e8;
+  outline: none;
+  color: #383838;
+  text-transform: capitalize;
+  font-family: Interstate-regular;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+  margin: 0;
+  padding: 10px;
+  transition: .3s;
+}
+div#accordionExample div button.btn.btn-link {
+  background: #fec409;
+}
+div#accordionExample div button.btn.btn-link:hover {
+  background: #fec409;
+}
+div#accordionExample div button.btn.btn-link span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  background: #e8e8e8;
+  text-align: center;
+  line-height: 45px;
+  font-size: 22px;
+  color: #333;
+  transition: .3s;
+}
+div#accordionExample div button.btn.btn-link span {
+  background: #333;
+  color: #fec409;
+}
+div#accordionExample div button.btn.btn-link:hover span {
+  background: #333;
+  color: #fec409;
+}
+ 
+
+ /*===================================================================================================================== 
+                                              LEGAL PAGE END
+ =====================================================================================================================*/
+
+
+ .contact-number ul li {
+  display: block;
+}
+.contact-number ul li a {
+  margin: 0;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  position: relative;
+  font-size: 30px;
+  font-family: InterstateCompressedRegular;
+}
+.contact-number ul li a svg {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  font-size: 29px !important;
+}
+.contact-number ul li a svg {
+  margin: 0;
+  font-size: 22px;
+  margin-right: 10px;
+}
+.contact-left {
+    margin-top: 30px;
+}
+a.mobile_icon svg {
+  font-size: 26px !important;
+}
+.contact-left h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+ /*==========================================================================================================================================================================================================================================  
+                                                                                                  Contact page  END
+ ========================================================================================================================================================================================================================================== */
+ .sell-wrepper h4 {
+  font-size: 47px;
+  color: #333;
+  line-height: 50px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.sell-wrepper a.scrool-btn {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #333;
+  font-family: Interstate-regular;
+  position: relative; 
+}
+
+.sell-wrepper a.scrool-btn svg {
+  position: absolute;
+  bottom: -75px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 60px;
+  height: 60px;
+  background: #fec409;
+  padding: 15px;
+  border-radius: 50%; 
+}
+.sell-wrepper h4 span{
+  color: #fec409;
+}
+.sell-wrepper p {
+  padding-bottom: 25px;
+}
+ .submissions-form.submission-two form .nice-select {
+  width: 100%;
+  border-radius: 0;
+  margin-bottom: 20px;
+  background: #333;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  font-family: Interstate-regular;
+}
+
+.submissions-form.submission-two form ul.list li.option.selected.focus {
+  background: #fec409; 
+}
+.submissions-form.submission-two form ul.list li.option.selected { 
+  color: #b3b3b3;
+}
+.submissions-form.submission-two form ul.list li.option {
+  color: #b3b3b3;
+}
+
+.submissions-form.submission-two form ul.list li.option:hover {
+  background: #fec409;
+  color: #fff;
+}
+ 
+.submissions-form.submission-two ::placeholder {
+  color: #b3b3b3;
+}
+.submissions-form.submission-two textarea {
+  color: #b3b3b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
